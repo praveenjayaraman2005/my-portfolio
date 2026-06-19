@@ -12,9 +12,9 @@ st.set_page_config(
 # ---------------- HIDE STREAMLIT UI ----------------
 st.markdown("""
 <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
+footer {
+    visibility: hidden;
+}
 </style>
 """, unsafe_allow_html=True)
 
